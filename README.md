@@ -29,7 +29,11 @@ I’ve created a proof of concept visualization of this data. It's a line plot a
 
 After this I created another graph with 3 additional nearby towns
 
-[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Prototype.png)](https://vizhub.com/Seano3/cb0574f1bf2a4d4990f6bde2f0d4c8fc)
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/ManyTownsPop.png)](https://vizhub.com/Seano3/cb0574f1bf2a4d4990f6bde2f0d4c8fc)
+
+Additionaly I alse created a % change graph using the same data
+
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/ManyTowns%25Change.png)](https://vizhub.com/Seano3/64cf3668cd254e7694512d93c9ff673a)
 
 
 ## Open Questions
