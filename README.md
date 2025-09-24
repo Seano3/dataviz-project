@@ -34,4 +34,4 @@ Im still very unsure which of the two ideas I want to move foward with for my gr
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+Each Week I would like to come up with new ideas to display this data and also collect more datasets showing diffrent towns populations. 
