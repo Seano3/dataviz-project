@@ -16,8 +16,9 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Sketch.png)]
+
+This sketch shows two ideas I had for visulazing the population data. The three diffrent colored lines represent theree diffrent towns. The Left graph shows population over time and the right graph shows % Change in population each year. The % Change could be more intersting if there is a large diffrence between the populations of the town. However, it does not show as much information that just the population graph. 
 
 
 ## Prototypes
@@ -29,7 +30,7 @@ I’ve created a proof of concept visualization of this data. It's a line plot a
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+Im still very unsure which of the two ideas I want to move foward with for my graph. Thankfully it is very easy to convert between % Cange and just the numbers. 
 
 ## Milestones
 
