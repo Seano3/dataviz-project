@@ -27,6 +27,10 @@ I’ve created a proof of concept visualization of this data. It's a line plot a
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Prototype.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
 
+After this I created another graph with 3 additional nearby towns
+
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Prototype.png)](https://vizhub.com/Seano3/cb0574f1bf2a4d4990f6bde2f0d4c8fc)
+
 
 ## Open Questions
 
