@@ -2,17 +2,17 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is the population for a handfull of neghboring towns on the South Shore of Massachutes. 
 
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * How much does the population change over time?
+ * Are the changes in population the same or at least simmular in all of the towns?
+ * What events could have led to the big changes in population?
+ * Do town spefic population events affect the population neghboring towns?
 
 ## Sketches
 
