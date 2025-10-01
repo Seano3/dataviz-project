@@ -40,7 +40,7 @@ Additionaly I alse created a % change graph using the same data
 
 This Week I collected more towns data for the visulazation. I think that more data will make the graphs more intersting to look at. Im still floating the ideas of which type of graph I want to go into but I think with more data the % change graph might start to loose the bennifits it has. It might possible be a good idea to instead use a line graph for it instead of a bar graph. I plan to experament with this next week. 
 
-[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/ManyTownsPop.png)](https://vizhub.com/Seano3/cb0574f1bf2a4d4990f6bde2f0d4c8fc)
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Interation1.png)](https://vizhub.com/Seano3/cb0574f1bf2a4d4990f6bde2f0d4c8fc)
 
 
 ## Open Questions
