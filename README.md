@@ -42,11 +42,21 @@ This Week I collected more towns data for the visulazation. I think that more da
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Interation1.png)](https://vizhub.com/Seano3/cb0574f1bf2a4d4990f6bde2f0d4c8fc)
 
+### 1/8/2025
 
-## Open Questions
+For this week I had the idea to visualize the data has a map as were woring with real life towns. My idea of to have the population number in the town and change the color of the town based on the % change for the year. To get here I made a prototpye a series of boxes rather than the map. This can be found here : 
 
-Im still very unsure which of the two ideas I want to move foward with for my graph. Thankfully it is very easy to convert between % Cange and just the numbers. 
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/boxes.png)](https://vizhub.com/Seano3/dd8280e02083447087ab86f3dc94b14c)
+
+This was a fun proof of concept with the slider working correctly and it sucessfuly showed the real pop of each of the towns without drowning out some of the smaller ones. I think I will move fowars in this direction for the remainder of the project. 
+
+
+
 
 ## Milestones
 
 Each Week I would like to come up with new ideas to display this data and also collect more datasets showing diffrent towns populations. 
+
+### 1/8/2025
+
+Next week I want to shape these boxes into the town map for the shouth shore of MA and I will also need to collect the data for the rest of the towns in the region. After that I want to look into visualizing the total population in the map instead of just having the number there. 
