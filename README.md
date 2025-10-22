@@ -56,6 +56,8 @@ First off this week I implimented the interactive legend for the project. Instea
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/boxes.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
 
+I didnt get as much work done as I wanted to this weeb but Im planning on making up for it next week. 
+
 
 ## Milestones
 
