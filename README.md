@@ -58,11 +58,18 @@ First off this week I implimented the interactive legend for the project. Instea
 
 I didnt get as much work done as I wanted to this weeb but Im planning on making up for it next week. 
 
+### 10/29/2025
+
+Keeping on theme with this weeks project I added the ablity to click on each box and show a more detailed line plot of population over time. I think this will be very usefull when I convert the boxes into the shape of a map. 
+
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Interactiviblity.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
+
+I also worked on shaping the chart into a map but did not get it into a place that I wanted to. Will work more on it next week. 
 
 ## Milestones
 
 Each Week I would like to come up with new ideas to display this data and also collect more datasets showing diffrent towns populations. 
 
-### 10/22/2025
+### 10/29/2025
 
 Next week I want to shape these boxes into the town map for the shouth shore of MA and I will also need to collect the data for the rest of the towns in the region. 
