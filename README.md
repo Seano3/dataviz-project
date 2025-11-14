@@ -69,13 +69,9 @@ I also added additional towns to fill in the map and polished the interactions f
 The final visualization is an interactive map of the South Shore, showing:
 
 - population for each town
-
 - Year-over-year percent change via color
-
 - Clickable towns that reveal historical line charts
-
 - Hover highlighting for quick identification
-
 - Time slider allowing users to play back years of population change
 
 
