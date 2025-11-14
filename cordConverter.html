@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pixel → Coord Converter</title>
+<style>
+  body { font-family: sans-serif; }
+  #coords { margin-top: 10px; font-size: 18px; }
+  /* Small red dot indicating the last click position */
+  #last-click-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(220, 20, 60, 0.95); /* crimson */
+    box-shadow: 0 0 4px rgba(220,20,60,0.5);
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* don't block clicks */
+    z-index: 9999;
+    display: none; /* hidden until first click */
+  }
+</style>
+</head>
+<body>
+
+<h2>Click the map to get Lat/Lon</h2>
+
+<img id="map" src="https://w7.pngwing.com/pngs/117/352/png-transparent-south-shore-southeastern-massachusetts-north-shore-boston-south-coast-realty-world-boston-map.png" style="width:920px;height:523px;border:1px solid #333;">
+
+<div id="coords"></div>
+
+<script>
+const minLon = -71.175;
+const maxLon = -70.645;
+const minLat = 41.935;
+const maxLat = 42.375;
+
+const width  = 920;
+const height = 523;
+
+document.getElementById('map').addEventListener('click', function(e) {
+  const rect = this.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+
+  const lon = minLon + (x / width)  * (maxLon - minLon);
+  const lat = maxLat - (y / height) * (maxLat - minLat);
+
+  document.getElementById('coords').textContent =
+    `Pixel: (${Math.round(x)}, ${Math.round(y)}) → [${lon.toFixed(6)} , ${lat.toFixed(6)}],`;
+});
+
+// Create a single dot element to indicate the last click position.
+// We position it using viewport coordinates plus page scroll so it stays at the right spot
+// even when the page is scrolled. The dot uses pointer-events:none so it doesn't intercept clicks.
+(function createClickDot(){
+  const dot = document.createElement('div');
+  dot.id = 'last-click-dot';
+  document.body.appendChild(dot);
+
+  // Reuse the existing map click listener logic but also move the dot there.
+  // Attach a second listener that runs on all clicks on the map image.
+  const img = document.getElementById('map');
+  img.addEventListener('click', function(e){
+    // Use clientX/clientY + scroll offsets to get document coordinates for absolute positioning
+    const pageX = e.clientX + (window.scrollX || window.pageXOffset || 0);
+    const pageY = e.clientY + (window.scrollY || window.pageYOffset || 0);
+    dot.style.left = pageX + 'px';
+    dot.style.top = pageY + 'px';
+    dot.style.display = 'block';
+  });
+})();
+</script>
+
+</body>
+</html>
