@@ -69,4 +69,4 @@ I also worked on shaping the chart into a map but did not get it into a place th
 ### 11/13/2025
 This week I realy focued on finishing up the project. I spent a lot of time shaping the visualization into the shape of the south shore. To do this I created a calcuator file that would allow me to convert cordinates on a picture into cordinates in the visulazation. The calucator can be found in cordConverter.html. In addition I added more towns to fill out the map and polished the intactivbiliy of the visulazation. 
 
-[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Interactiviblity.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Map%20with%20polish.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
