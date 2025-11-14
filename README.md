@@ -1,29 +1,31 @@
-# Data Visualization Project
+# South Shore Population 
 
-## Data
+This project explores population changes across towns in the South Shore of Massachusetts from 2000–2023. What began as a simple line-chart exploration evolved into a fully interactive geographic visualization. This report documents the design process from early sketches to the final interactive map.
 
-The data I propose to visualize for my project is the population for a handfull of neghboring towns on the South Shore of Massachutes. 
-
-
-## Questions & Tasks
-
-The following tasks and questions will drive the visualization and interaction decisions for this project:
-
- * How much does the population change over time?
- * Are the changes in population the same or at least simmular in all of the towns?
- * What events could have led to the big changes in population?
- * Do town spefic population events affect the population neghboring towns?
-
-## Sketches
-
-[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Sketch.png)]
-
-This sketch shows two ideas I had for visulazing the population data. The three diffrent colored lines represent theree diffrent towns. The Left graph shows population over time and the right graph shows % Change in population each year. The % Change could be more intersting if there is a large diffrence between the populations of the town. However, it does not show as much information that just the population graph. 
+Final Visulazation:
+[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Map%20with%20polish.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
 
 
-## Prototypes
+## Motivation
+Population changes in small, neighboring towns often reflect larger regional patterns, such as economic shifts, housing development, demographic changes, or major local events. By comparing towns side-by-side, we can see not only how each individual population evolves but also how the rise or fall of one town may relate to changes in its neighbors.
 
-I’ve created a proof of concept visualization of this data. It's a line plot and it shows the population of the town of Cohasset, located on the South Shore of Massachutes. 
+This area was particularly intersiting to me beacue it is the area I grew up in so the events of the past 25 years are very fammilular to me. 
+
+## Design Process 
+
+### Early Sketches 
+
+To begin the process I started sketching out my inital ideas for what I would want my visulazation to look like. 
+
+![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Sketch.png)
+
+The left sketch shows population over time for three towns. The right shows year-over-year percentage change. While percent change can reveal dramatic differences, the raw population graph provides more complete context.
+
+Initaly I did not have plans to create the map that can be seen in the final product. 
+
+### Inital Prototype
+
+My first goal was to make a population line plot for just one of the towns. For this, I chose the town of Cohasset, the town I grew up in. 
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Prototype.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
 
@@ -35,38 +37,48 @@ Additionaly I alse created a % change graph using the same data
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/ManyTowns%25Change.png)](https://vizhub.com/Seano3/64cf3668cd254e7694512d93c9ff673a)
 
+As I added more data, I found that percent change became increasingly crowded and less useful. Especially when towns had very different starting populations as some of the smaller one would get lost in the background.
 
-## Progress Updates
+### Transition to a Map Based Visulazation 
 
-This Week I collected more towns data for the visulazation. I think that more data will make the graphs more intersting to look at. Im still floating the ideas of which type of graph I want to go into but I think with more data the % change graph might start to loose the bennifits it has. It might possible be a good idea to instead use a line graph for it instead of a bar graph. I plan to experament with this next week. 
+Because these are real geographic locations, I wanted to experiment with representing the towns as a map, with color indicating year-over-year change and text showing the current population.
 
-[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Interation1.png)](https://vizhub.com/Seano3/cb0574f1bf2a4d4990f6bde2f0d4c8fc)
-
-### 10/8/2025
-
-For this week I had the idea to visualize the data has a map as were woring with real life towns. My idea of to have the population number in the town and change the color of the town based on the % change for the year. To get here I made a prototpye a series of boxes rather than the map. This can be found here : 
+Before committing to full shapes, I prototyped using simple boxes:
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/boxes.png)](https://vizhub.com/Seano3/dd8280e02083447087ab86f3dc94b14c)
 
-This was a fun proof of concept with the slider working correctly and it sucessfuly showed the real pop of each of the towns without drowning out some of the smaller ones. I think I will move fowars in this direction for the remainder of the project. 
+I was excited about this idea becuase it clearly visulaized the percent change of each town without drowning some of them out. Planning for the future, I also added a legend that would highlight the town the user was hovering over to be able to quickley find it on the map. 
 
-### 10/22/2025
+### Return of the Line Plots
 
-First off this week I implimented the interactive legend for the project. Instead of clicking on each part of the legend, when you hover over them it highlings the box by making the border bold. I think this is a great way of helping users find each section of the soon to be map quickly. Visualy it donst look much diffrent however.  
-
-[![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/boxes.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
-
-I didnt get as much work done as I wanted to this weeb but Im planning on making up for it next week. 
-
-### 10/29/2025
-
-Keeping on theme with this weeks project I added the ablity to click on each box and show a more detailed line plot of population over time. I think this will be very usefull when I convert the boxes into the shape of a map. 
+I still belived the visulation of the line plot would be usefull for anyone wanting to read this graph. I came up with the idea to add more interactiblity by adding that if a user clicked on a town, a line plot for that town's population would appear. 
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Interactiviblity.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
 
-I also worked on shaping the chart into a map but did not get it into a place that I wanted to. Will work more on it next week. 
+### Forming the Map
 
-### 11/13/2025
-This week I realy focued on finishing up the project. I spent a lot of time shaping the visualization into the shape of the south shore. To do this I created a calcuator file that would allow me to convert cordinates on a picture into cordinates in the visulazation. The calucator can be found in cordConverter.html. In addition I added more towns to fill out the map and polished the intactivbiliy of the visulazation. 
+Much of the final development time was spent converting simple boxes into the actual geographic shape of the South Shore.
+
+To accomplish this, I built a coordinate conversion tool cordConverter.html that let me translate points from a reference image into relative SVG coordinates. This made it possible to accurately place and scale each town on the final map.
+
+I also added additional towns to fill in the map and polished the interactions further. 
 
 [![image](https://raw.githubusercontent.com/Seano3/dataviz-project/refs/heads/master/Map%20with%20polish.png)](https://vizhub.com/Seano3/4977b613915f4d03bfc6390f6a7240e6)
+
+### Results 
+The final visualization is an interactive map of the South Shore, showing:
+
+- population for each town
+
+- Year-over-year percent change via color
+
+- Clickable towns that reveal historical line charts
+
+- Hover highlighting for quick identification
+
+- Time slider allowing users to play back years of population change
+
+
+### Future Plans 
+- The ability to see two towns or more on the line plot
+- Zoom/pan support
